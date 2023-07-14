@@ -9,15 +9,64 @@
 .content {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 12px;
+    border-radius: 0.6rem;
+    border: 1px solid #673de6;
+    background: rgb(0, 0, 0);
 }
 
 .content-h2 {
-
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .content-form {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.content-form>p {
+    margin-left: 4px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content-form>.input-userName {
+    padding: 10px 8px;
+    border-radius: 0.6rem;
+    background: transparent;
+    border: 1px solid #673de6;
+    color: white;
+}
+
+.content-form>.search-button {
+    width: 100%;
+    height: 38px;
+    border-radius: 0.6rem;
+    text-transform: uppercase;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content-form>.search-button:hover {
+    background: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid #673de6;
 }
 
 @media (min-width: 600px) {
