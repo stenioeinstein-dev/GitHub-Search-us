@@ -12,7 +12,7 @@ async function getUserByName(userName) {
         .then(res => {
 
             localStorage.setItem("user", JSON.stringify(res))
-            console.log(res.message)
+            // console.log(res.message)
 
             if (res.message === "Not Found") {
                 window.location.replace('/src/pages/error.html')

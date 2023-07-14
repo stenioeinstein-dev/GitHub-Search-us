@@ -30,7 +30,7 @@ function renderUserProfile() {
                 reposLink.href = repos.html_url
                 reposLink.target = '_blank'
 
-                console.log(reposDescription)
+                // console.log(reposDescription)
                 reposLink.addEventListener('click', () => {
                     window.open(reposLink.href)
                 })
