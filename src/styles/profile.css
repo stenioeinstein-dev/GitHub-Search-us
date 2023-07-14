@@ -122,7 +122,7 @@ li>a {
 
 li>a:hover {
     background: #010409;
-    color: #000000;
+    color: #ffffff;
 }
 
 @media (min-width: 830px) {
