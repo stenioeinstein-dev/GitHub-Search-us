@@ -85,7 +85,6 @@ li {
 li:hover {
     cursor: pointer;
     background-color: var(--color-grey-1);
-    border: 0.12rem solid var(--color-grey-7);
 }
 
 li>h2 {
