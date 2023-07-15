@@ -46,6 +46,7 @@
 .content-form>.input-userName {
     padding: 10px 8px;
     border-radius: 0.6rem;
+    font-size: 12px;
     background: transparent;
     border: 1px solid #673de6;
     color: white;
@@ -59,7 +60,7 @@
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: 1px solid #673de6;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     cursor: pointer;
 }
