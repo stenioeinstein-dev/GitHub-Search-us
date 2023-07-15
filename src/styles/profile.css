@@ -27,7 +27,7 @@ header {
 .home-btn {
     border-radius: 0.5rem;
     background-color: #000000;
-    border: 1px solid #673de6;
+    border: 2px solid #673de6;
     color: var(--color-grey-7);
     font-size: 0.7rem;
     font-weight: 600;
@@ -41,7 +41,7 @@ header {
 
 .home-btn:hover {
     background-color: #161B22;
-    border: 0.05rem solid #ffffff9d;
+    border: 2px solid #ffffff9d;
 }
 
 .container-user {
@@ -133,7 +133,7 @@ li>p {
 
 li>a {
     color: var(--color-grey-7);
-    border: 1px solid #673de6;
+    border: 2px solid #673de6;
     border-radius: var(--radius-button);
     padding: 8px 12px;
     font-size: .8rem;
