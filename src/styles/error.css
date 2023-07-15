@@ -1,33 +1,34 @@
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
 
 }
 
 .alert-message {
-    color: var(--color-grey-7);
+    margin-top: 160px;
+    color: white;
     border: 1px solid #673de6;
-    border-radius: 0.7rem;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 16px 22px;
-    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    width: 310px;
+    height: 220px;
     max-width: 30rem;
-    height: 32%;
 }
 
-.alert-message>h1 {
+.div-h1>h1 {
     font-size: 2rem;
     font-weight: 700;
 }
 
-.alert-message>p {
+.div-p-a>p {
+    font-weight: 600;
     font-size: 0.8rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
@@ -35,45 +36,26 @@ main {
 }
 
 .home-btn {
-    color: var(--color-grey-7);
-    border-radius: 0.6rem;
-    background: black;
-    border: 1px solid #673de6;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
     width: 100%;
-    height: 2.5rem;
+    height: 38px;
+    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-a:hover {
-    background: #fff;
-    color: black;
-}
-
-.alert-image {
-    width: 50%;
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid #21262d;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
-img {
-    width: 90%;
-}
-
-figcaption {
-    color: var(--color-grey-6);
-    font-size: 0.6rem;
-    width: 70%;
-    margin-top: 0.5rem;
+.home-btn:hover {
+    background: #010409;
+    color: rgb(230, 230, 230);
+    border: 1px solid #673de6;
 }
 
 @media (min-width: 600px) {
@@ -83,14 +65,4 @@ figcaption {
         justify-content: center;
         gap: 3rem
     }
-
-    .alert-image {
-        width: 40%;
-        max-width: 25rem;
-    }
-
-    img {
-        width: 80%;
-    }
-
 }

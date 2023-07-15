@@ -2,14 +2,15 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 160px;
     width: 310px;
     height: 220px;
     padding: 16px;
@@ -55,6 +56,10 @@
     color: white;
 }
 
+.content-form>.input-userName:focus {
+    border: 1px solid #673de6;
+}
+
 .content-form>.search-button {
     width: 100%;
     height: 38px;
@@ -66,10 +71,6 @@
     font-size: 12px;
     font-weight: 700;
     cursor: pointer;
-}
-
-.content-form>.search-button:active {
-    border: 1px solid #673de6;
 }
 
 .content-form>.search-button:hover {
