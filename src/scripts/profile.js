@@ -26,7 +26,7 @@ function renderUserProfile() {
 
                 reposName.innerText = repos.name
                 reposDescription.innerText = repos.description
-                reposLink.innerText = 'Repositório'
+                reposLink.innerText = 'Repository'
                 reposLink.href = repos.html_url
                 reposLink.target = '_blank'
 
