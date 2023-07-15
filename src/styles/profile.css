@@ -65,6 +65,13 @@ section {
     align-items: center;
 }
 
+.h1-rep {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
 ul {
     display: flex;
     justify-content: center;
