@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 
-.content-form>.search-button:focus {
+.content-form>.search-button:active {
     border: 1px solid #673de6;
 }
 
