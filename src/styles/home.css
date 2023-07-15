@@ -20,7 +20,7 @@
 .content-h2 {
     text-align: center;
     margin-top: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     color: white;
     font-size: 14px;
@@ -56,16 +56,17 @@
     height: 38px;
     border-radius: 0.6rem;
     text-transform: uppercase;
-    background: white;
-    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid #673de6;
     font-size: 13px;
     font-weight: 700;
     cursor: pointer;
 }
 
 .content-form>.search-button:hover {
-    background: black;
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: 1px solid #673de6;
 }
 
