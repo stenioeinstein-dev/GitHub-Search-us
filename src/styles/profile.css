@@ -23,7 +23,7 @@ header {
     color: var(--color-grey-7);
     font-size: 0.7rem;
     font-weight: 600;
-    width: 30%;
+    width: 36%;
     max-width: 10rem;
     height: 1.8rem;
     display: flex;
@@ -141,7 +141,7 @@ li>a:hover {
 @media (min-width: 830px) {
 
     .home-btn {
-        width: 36%;
+        width: 30%;
     }
 
     ul {
