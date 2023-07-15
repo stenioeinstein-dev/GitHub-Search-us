@@ -45,6 +45,8 @@
 }
 
 .content-form>.input-userName {
+    width: 100%;
+    height: 32px;
     padding: 10px 8px;
     border-radius: 0.6rem;
     font-size: 12px;
