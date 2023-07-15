@@ -68,6 +68,10 @@
     cursor: pointer;
 }
 
+.content-form>.search-button:focus {
+    border: 1px solid #673de6;
+}
+
 .content-form>.search-button:hover {
     background: #010409;
     color: rgb(230, 230, 230);
