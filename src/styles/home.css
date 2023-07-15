@@ -9,6 +9,7 @@
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 310px;
     height: 220px;
     padding: 12px;
