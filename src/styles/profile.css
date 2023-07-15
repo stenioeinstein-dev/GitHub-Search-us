@@ -140,6 +140,10 @@ li>a:hover {
 
 @media (min-width: 830px) {
 
+    .home-btn {
+        font-size: 0.7rem;
+    }
+
     ul {
         width: 80%;
         max-width: 70rem;
