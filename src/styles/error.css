@@ -16,7 +16,7 @@ main {
 .alert-message {
     margin-top: 160px;
     color: white;
-    border: 1px solid #673de6;
+    border: 2px solid #673de6;
     background: rgb(0, 0, 0);
     border-radius: 6px;
     display: flex;
@@ -53,7 +53,7 @@ main {
     text-transform: uppercase;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    border: 1px solid #21262d;
+    border: 2px solid #21262d;
     font-size: 12px;
     font-weight: 700;
     cursor: pointer;
