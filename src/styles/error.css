@@ -15,7 +15,7 @@ main {
 
 .alert-message {
     margin-top: 160px;
-    color: white;
+    color: var(--color);
     border: 2px solid #673de6;
     background: var(--background);
     border-radius: 6px;
