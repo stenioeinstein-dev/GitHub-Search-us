@@ -52,7 +52,7 @@ header {
 
 .avatar {
     width: 3.4rem;
-    border-radius: 50%;
+    border-radius: 50rem;
     border: 2px solid #673de6;
 }
 
@@ -95,7 +95,7 @@ ul {
 li {
     color: var(--color);
     border: 2px solid #673de6;
-    border-radius: var(--radius-card);
+    border-radius: var(--border-radius);
     padding: 1rem;
     margin: 0.6rem;
     height: 11rem;
@@ -134,7 +134,7 @@ li>p {
 li>a {
     color: var(--color);
     border: 2px solid #673de6;
-    border-radius: var(--radius-button);
+    border-radius: var(--border-radius);
     padding: 8px 12px;
     font-size: .8rem;
     text-transform: uppercase;
