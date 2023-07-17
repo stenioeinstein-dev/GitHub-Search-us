@@ -112,6 +112,7 @@ li:hover {
 
 li>h2 {
     font-size: 0.9rem;
+    text-transform: uppercase;
     font-weight: 500;
     display: -webkit-box;
     -webkit-line-clamp: 1;
