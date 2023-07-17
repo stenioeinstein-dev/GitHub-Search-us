@@ -16,7 +16,7 @@
     padding: 16px;
     border-radius: 6px;
     border: 2px solid #673de6;
-    background: rgb(0, 0, 0);
+    background: var(--background);
 }
 
 .content-h2 {
@@ -24,7 +24,7 @@
     margin-top: 18px;
     margin-bottom: 40px;
     text-transform: uppercase;
-    color: white;
+    color: var(--color);
     font-size: 14px;
     font-weight: 700;
 }
@@ -40,7 +40,7 @@
 .content-form>p {
     margin-left: 4px;
     text-transform: uppercase;
-    color: white;
+    color: var(--color);
     font-size: 12px;
     font-weight: 700;
 }
@@ -53,7 +53,7 @@
     font-size: 12px;
     background: transparent;
     border: 2px solid #21262d;
-    color: white;
+    color: var(--color);
 }
 
 .content-form>.input-userName:focus {
@@ -65,8 +65,8 @@
     height: 38px;
     border-radius: 0.6rem;
     text-transform: uppercase;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: var(--background);
+    color: var(--color);
     border: 2px solid #21262d;
     font-size: 12px;
     font-weight: 700;
@@ -74,8 +74,8 @@
 }
 
 .content-form>.search-button:hover {
-    background: #010409;
-    color: rgb(230, 230, 230);
+    background: var(--background);
+    color: var(--color);
     border: 2px solid #673de6;
 }
 
