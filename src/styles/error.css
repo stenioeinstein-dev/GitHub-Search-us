@@ -17,7 +17,7 @@ main {
     margin-top: 160px;
     color: white;
     border: 2px solid #673de6;
-    background: rgb(0, 0, 0);
+    background: var(--background);
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -51,8 +51,8 @@ main {
     justify-content: center;
     border-radius: 6px;
     text-transform: uppercase;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: var(--background);
+    color: var(--color);
     border: 2px solid #21262d;
     font-size: 12px;
     font-weight: 700;
@@ -60,7 +60,7 @@ main {
 }
 
 .home-btn:hover {
-    background: #010409;
-    color: rgb(230, 230, 230);
+    background-color: var(--background);
+    color: var(--color);
     border: 2px solid #673de6;
 }
