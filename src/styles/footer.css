@@ -14,15 +14,15 @@ footer {
 
 footer>h1,
 footer>span {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     color: #ffffff;
 }
 
 footer>h1 {
-    font-size: .75rem
+    font-size: .65rem
 }
 
 footer>span {
-    font-size: .65rem;
+    font-size: .55rem;
 }
