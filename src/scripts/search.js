@@ -15,9 +15,9 @@ async function getUserByName(userName) {
             // console.log(res.message)
 
             if (res.message === "Not Found") {
-                window.location.replace('/src/pages/error/')
+                window.location.replace('/error/')
             } else {
-                window.location.replace('/src/pages/profile/')
+                window.location.replace('/profile/')
             }
         })
 
