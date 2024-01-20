@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./crohove/img/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link rel="shortcut icon" href="./crohove/img/favicon.ico" type="image/x-icon"> -->
 
     <link rel="stylesheet" href="./cross-styles/styles/reset.css">
     <link rel="stylesheet" href="./cross-styles/styles/globalStyles.css">
@@ -19,12 +20,17 @@
 
     <section class="container">
         <div class="content">
-            <h2 class="content-h2">Searching for a user</h2>
+            <h2 class="content-h2">Searching for a user github</h2>
+
             <form class="content-form">
                 <p>User GitHub</p>
-                <input class="input-userName" placeholder="Enter a github user here..." type="text" required>
-                <button class="search-button" type="submit">View github profile</button>
+                <div>
+                    <input class="input-userName" placeholder="Enter a github user here..." type="text" required>
+                    <button class="search-button" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+
             </form>
+
         </div>
     </section>
 
@@ -33,7 +39,7 @@
         <span>All rights reserved.</span>
     </footer>
 
-    <script type="module" src="./crohove/scripts/index.js"></script>
+    <script type="module" src="./cross-styles/scripts/index.js"></script>
 </body>
 
 </html>
