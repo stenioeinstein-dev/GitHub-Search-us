@@ -3,7 +3,7 @@
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
     --color: rgb(0, 0, 0);
-    --background: rgb(255, 255, 255);
+    --background: rgb(231, 231, 231);
     --hover: rgb(0, 0, 0);
     --border-radius: 6px;
   }
@@ -25,8 +25,7 @@
 }
 
 body {
-    /* background-color: var(--background); */
-    background: url(../img/favicon.ico) no-repeat;
+    background-color: var(--background);
     background-size: cover;
 
 }
